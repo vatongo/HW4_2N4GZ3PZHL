@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaSE COVID-19 Tracker Application</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./font/fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.css"
+    />
+    <script src="./jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    <div class="bigBox">
+      <div class="headLogo">
+        <div class="logoContainer">
+          <img src="./image/logo.png" alt="Covid-19 Tracker App" />
+        </div>
+      </div>
+      <div class="mainRow">
+        <div class="rowContainer">
+          <div class="innerText">
+            <span>Total Cases<i class="fas fa-caret-up icons"></i></span>
+          </div>
+          <span>308,564</span>
+        </div>
+        <div class="rowContainer">
+          <div class="innerText">
+            <span>Recovered<i class="fas fa-caret-down iconGreen"></i></span>
+          </div>
+          <span>308,564</span>
+        </div>
+        <div class="rowContainer">
+          <div class="innerText">
+            <span>Active Cases<i class="fas fa-caret-up icons"></i></span>
+          </div>
+          <span>308,564</span>
+        </div>
+        <div class="rowContainer">
+          <div class="innerText">
+            <span>Total Death<i class="fas fa-caret-up icons"></i></span>
+          </div>
+          <span>308,564</span>
+        </div>
+      </div>
+      <div class="tableContainer">
+        <div class="innerTable">
+          <table id="covid-table">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Active Cases</th>
+                <th>Recovered</th>
+                <th>Total Death</th>
+                <th>Total Cases</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="side">
+          <div class="sideContainer">
+            <div>
+              <p>Health Tips</p>
+            </div>
+          </div>
+          <div>
+            <div class="sideContainer">
+              <p>News Update</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
